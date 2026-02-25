@@ -1,3 +1,5 @@
+import ListaCategorias from "../components/categoria/listacategorias/ListaCategorias";
+
 function Home() {
   return (
     <>
@@ -9,12 +11,6 @@ function Home() {
             <p className="text-xl">
               Onde a saúde e o bem-estar são prioridades!
             </p>
-
-            <div className="flex justify-around gap-4">
-              <div className="rounded text-white border-none py-2 px-4">
-                {/* <ModalPostagem /> */}
-              </div>
-            </div>
           </div>
 
           <div className="flex justify-center">
@@ -28,7 +24,7 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <ListaPostagens /> */}
+      <ListaCategorias />
     </>
   );
 }
